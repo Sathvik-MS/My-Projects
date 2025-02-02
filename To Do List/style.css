@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F7FFF6;
+}
+
+.main-heading {
+    text-align: center;
+    background-color: #87D68D;
+    width: 50vw;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+.heading-text {
+    color: #1E2F23;
+    font-size: 3rem;
+    font-family: "Ubuntu", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.main-body {
+    display: flex;
+}
+
+.left-body {
+    width: 24.6vw;
+    height: 78vh;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #34623F;
+}
+
+.container {
+    color: #F7FFF6;
+    font-size: 20px;
+    font-family: "Ubuntu", serif;
+    font-weight: 700;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+}
+
+.utility {
+    margin: 10px;
+    display: flex;
+}
+
+.hover {
+    &:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+}
+
+#txt-a1 {
+    margin: 0px 11px;
+    border: none;
+    outline: none;
+    height: 25px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    font-family: "Ubuntu", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    padding: 2px;
+    width: 45%;
+}
+
+#btn1 {
+    font-family: "Ubuntu", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    box-shadow: none;
+    cursor: pointer;
+    padding: 2px;
+}
+
+.right-body {
+    height: 78vh;
+    width: 75.4vw;
+    background-color: #BCEBCB;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.lists {
+    display: flex;
+    flex-direction: column;
+}
+
+#txt1 {
+    font-family: "Ubuntu", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+#inp1 {
+    height: 18px;
+    width: 18px;
+}
