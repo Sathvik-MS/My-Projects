@@ -90,8 +90,37 @@ body {
     padding: 2px;
 }
 
+#txt-a2 {
+    margin: 0px 11px;
+    border: none;
+    outline: none;
+    height: 25px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    font-family: "Ubuntu", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    padding: 2px;
+    width: 45%;
+}
+
+#btn2 {
+    font-family: "Ubuntu", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    box-shadow: none;
+    cursor: pointer;
+    padding: 2px;
+}
+
 .right-body {
-    height: 78vh;
+    min-height: 78vh;
     width: 75.4vw;
     background-color: #BCEBCB;
     border-radius: 15px;
@@ -115,4 +144,13 @@ body {
 #inp1 {
     height: 18px;
     width: 18px;
+
+}
+
+.show_success {
+    color: #1E2F23;
+    font-size: 1.5em;
+    font-family: "Ubuntu", serif;
+    font-weight: 300;
+    font-style: normal;
 }
