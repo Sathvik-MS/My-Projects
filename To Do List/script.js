@@ -59,6 +59,29 @@ function On_Click_Delete() {
         })
     })
 }
+function On_Click_Edit() {
+    const textarea = document.createElement("textarea")
+    textarea.setAttribute("id", "txt-a3")
+    textarea.setAttribute("class", "old")
+    textarea.setAttribute("placeholder", "Old Task")
+    document.getElementById("edit").append(textarea);
+    const textarea2 = document.createElement("textarea")
+    const button2 = document.createElement("button")
+    textarea2.setAttribute("id", "txt-a3")
+    textarea2.setAttribute("class", "new")
+    textarea2.setAttribute("placeholder", "New Task")
+    button2.setAttribute("id", "btn3")
+    button2.innerText = "Enter"
+    document.getElementById("edit").append(textarea2, button2);
+    document.getElementById("btn3").addEventListener("click", () => {
+        let arr = (Array.from(document.getElementsByClassName("lists")[0].children))
+        arr.forEach((ele) => {
+            if (ele.children[1].innerText == textarea.value) {
+                ele.children[1].innerText = textarea2.value;
+            }
+        })
+    })
+}
 document.getElementsByClassName("hover")[0].addEventListener("click", () => {
     click = true;
     if (click == true && clickCount < 1) {
@@ -66,11 +89,19 @@ document.getElementsByClassName("hover")[0].addEventListener("click", () => {
     }
     clickCount++;
 })
+let click1_count = 0;
 document.getElementsByClassName("hover")[1].addEventListener("click", () => {
     let click1 = true
-    let click1_count = 0;
     if (click1 == true && click1_count < 1) {
         On_Click_Delete()
     }
     click1_count++
+})
+let click2_count = 0
+document.getElementsByClassName("hover")[2].addEventListener("click", () => {
+    let click2 = true
+    if (click2 == true && click2_count < 1) {
+        On_Click_Edit()
+    }
+    click2_count++
 })

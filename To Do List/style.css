@@ -32,7 +32,7 @@ body {
 
 .left-body {
     width: 24.6vw;
-    height: 78vh;
+    min-height: 78vh;
     border-radius: 15px;
     margin: 20px;
     padding: 20px;
@@ -52,6 +52,8 @@ body {
 .utility {
     margin: 10px;
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .hover {
@@ -61,8 +63,15 @@ body {
     }
 }
 
+::placeholder {
+    color: white;
+    font-family: "Ubuntu", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
 #txt-a1 {
-    margin: 0px 11px;
+    margin: 5px;
     border: none;
     outline: none;
     height: 25px;
@@ -74,7 +83,6 @@ body {
     font-style: normal;
     font-size: 20px;
     padding: 2px;
-    width: 45%;
 }
 
 #btn1 {
@@ -88,10 +96,12 @@ body {
     box-shadow: none;
     cursor: pointer;
     padding: 2px;
+    width: 25%;
+    margin: 5px;
 }
 
 #txt-a2 {
-    margin: 0px 11px;
+    margin: 5px;
     border: none;
     outline: none;
     height: 25px;
@@ -103,7 +113,6 @@ body {
     font-style: normal;
     font-size: 20px;
     padding: 2px;
-    width: 45%;
 }
 
 #btn2 {
@@ -117,6 +126,38 @@ body {
     box-shadow: none;
     cursor: pointer;
     padding: 2px;
+    width: 25%;
+    margin: 5px;
+}
+
+#txt-a3 {
+    margin: 5px;
+    border: none;
+    outline: none;
+    height: 25px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    font-family: "Ubuntu", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    padding: 2px;
+}
+
+#btn3 {
+    font-family: "Ubuntu", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    box-shadow: none;
+    cursor: pointer;
+    padding: 2px;
+    margin: 5px;
+    width: 25%;
 }
 
 .right-body {
@@ -144,7 +185,6 @@ body {
 #inp1 {
     height: 18px;
     width: 18px;
-
 }
 
 .show_success {
