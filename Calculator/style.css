@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #01BAEF;
+}
+
+.main-heading {
+    background-color: #0B4F6C;
+    margin: 20px auto;
+    text-align: center;
+    text-align: center;
+    border-radius: 15px;
+    width: 20%;
+}
+
+.heading-text {
+    font-family: "Roboto Condensed", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 3.2em;
+}
+
+.main-body {
+    width: 35vw;
+    height: 60vh;
+    background-color: #FBFBFF;
+    margin: 70px auto;
+    border-radius: 25px;
+    box-shadow: 0px 0px 20px 0px grey;
+    display: flex;
+    flex-direction: column;
+}
+
+.display {
+    width: 100%;
+    height: 17.5%;
+    background-color: #B80C09;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.result {
+    font-family: "Roboto Condensed", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    padding-left: 25px;
+    font-size: 4em;
+    color: white;
+}
+
+#clear {
+    cursor: pointer;
+    margin-right: 25px;
+    margin-top: 10px;
+    border-radius: 7.5px;
+    width: 60px;
+    height: 60px;
+}
+
+#clear:hover {
+    background-color: #8f0a07;
+}
+
+.inputs {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.input-panel {
+    display: flex;
+    background-color: #ECE8EF;
+    width: 80%;
+    flex-wrap: wrap;
+    height: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom-left-radius: 25px;
+}
+
+.number {
+    font-size: 3em;
+    font-family: "Roboto Condensed", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    border: 2px solid black;
+    padding: 0px 42px;
+    border-radius: 10px;
+}
+
+.number:hover {
+    background-color: #dfd29f;
+}
+
+.symbols {
+    background-color: #DDD8C4;
+    height: 100%;
+    width: 20%;
+    border-bottom-right-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-utility {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.img-utility:hover {
+    background-color: #dfd29f;
+}
